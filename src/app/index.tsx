@@ -5,7 +5,9 @@ const index = () => {
 	return (
 		<SafeAreaView>
 			<View>
-				<Text>Home Screen</Text>
+				<Text className="font-bold text-4xl p-10 bg-red-500">
+					Home Screen
+				</Text>
 			</View>
 		</SafeAreaView>
 	);
