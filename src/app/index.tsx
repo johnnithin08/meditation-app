@@ -8,7 +8,7 @@ const index = () => {
 		<SafeAreaView className="flex-1">
 			<FlatList
 				className="bg-white"
-				contentContainerClassName="gap-5 p-3"
+				contentContainerClassName="gap-8 p-3"
 				data={meditations}
 				renderItem={({ item, index }) => {
 					return <MeditationListItem item={item} />;
